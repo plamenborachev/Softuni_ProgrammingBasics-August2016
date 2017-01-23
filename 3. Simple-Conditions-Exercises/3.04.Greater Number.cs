@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _3._04.Greater_Number
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int numberA = int.Parse(Console.ReadLine());
+            int numberB = int.Parse(Console.ReadLine());
+
+            if (numberA > numberB)
+            {
+                Console.WriteLine(numberA);
+            }
+            else
+            {
+                Console.WriteLine(numberB);
+            }
+        }
+    }
+}
